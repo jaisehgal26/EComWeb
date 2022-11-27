@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<BrowserRouter>
+  <Suspense
+    fallback={
+      <div
+        className="center spinner-grow text-warning"
+        role="status"
+      >
+        <span
+          className="sr-only"
+        >
+          Loading...
+        </span>
+      </div>
+    }
+  >
+    <Routes>
+      <Route
+        element={<Home />}
+        exact={true}
+        path="/"
+      />
+      <Route
+        element={<Login />}
+        path="/login"
+      />
+      <Route
+        element={<Cart />}
+        path="/cart"
+      />
+      <Route
+        element={<Products />}
+        path="/products"
+      />
+      <Route
+        element={<AddProduct />}
+        path="/products/addproduct"
+      />
+    </Routes>
+  </Suspense>
+</BrowserRouter>
+`;

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<Fragment>
+  <Navbar />
+  <Carousel />
+  <Suspense
+    fallback={
+      <div
+        className="center spinner-grow text-warning"
+        role="status"
+      >
+        <span
+          className="sr-only"
+        >
+          Loading...
+        </span>
+      </div>
+    }
+  >
+    <lazy />
+    <lazy />
+    <lazy />
+    <lazy />
+  </Suspense>
+  <Footer />
+</Fragment>
+`;

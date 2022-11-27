@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<div
+  className="container-xxl py-6"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row g-4"
+    >
+      <div
+        className="fact-card col-lg-3 col-md-6 "
+      >
+        <div
+          className="fact-item rounded text-center h-100 p-5"
+        >
+          <i
+            className="fa fa-certificate fa-4x text-primary mb-4"
+          />
+          <p
+            className="mb-2"
+          >
+            Years Experience
+          </p>
+          <h1
+            className="display-5 mb-0"
+            data-toggle="counter-up"
+          >
+            <CountUp
+              className="Playfair"
+              duration={2.5}
+              end={100}
+            />
+          </h1>
+        </div>
+      </div>
+      <div
+        className="fact-card col-lg-3 col-md-6 "
+      >
+        <div
+          className="fact-item rounded text-center h-100 p-5"
+        >
+          <i
+            className="fa fa-users fa-4x text-primary mb-4"
+          />
+          <p
+            className="mb-2"
+          >
+            Skilled Professionals
+          </p>
+          <h1
+            className="display-5 mb-0"
+            data-toggle="counter-up"
+          >
+            <CountUp
+              className="Playfair"
+              duration={2.5}
+              end={175}
+            />
+          </h1>
+        </div>
+      </div>
+      <div
+        className="fact-card col-lg-3 col-md-6 "
+      >
+        <div
+          className="fact-item  rounded text-center h-100 p-5"
+        >
+          <i
+            className="fa fa-bread-slice fa-4x text-primary mb-4"
+          />
+          <p
+            className="mb-2"
+          >
+            Total Products
+          </p>
+          <br />
+          <h1
+            className="display-5 mb-0"
+            data-toggle="counter-up"
+          >
+            <CountUp
+              className="Playfair"
+              duration={2.5}
+              end={135}
+            />
+          </h1>
+        </div>
+      </div>
+      <div
+        className="fact-card col-lg-3 col-md-6 "
+      >
+        <div
+          className="fact-item rounded text-center h-100 p-5"
+        >
+          <i
+            className="fa fa-cart-plus fa-4x text-primary mb-4"
+          />
+          <p
+            className="mb-2"
+          >
+            Order Everyday
+          </p>
+          <br />
+          <h1
+            className="display-5 mb-0"
+            data-toggle="counter-up"
+          >
+            <CountUp
+              className="Playfair"
+              duration={2.5}
+              end={9357}
+            />
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
